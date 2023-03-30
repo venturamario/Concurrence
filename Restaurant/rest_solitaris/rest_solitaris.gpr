@@ -1,0 +1,8 @@
+project rest_solitaris is
+    for Main use ("rest_solitaris.adb");
+    for Object_Dir use ".objs";
+
+    package Compiler is
+        for Default_Switches ("Ada") use ("-g");
+    end Compiler;
+end rest_solitaris;
